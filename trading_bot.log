@@ -1,0 +1,242 @@
+2026-05-01 15:10:08 | ERROR | trading_bot | Configuration error: Missing Binance credentials. Set BINANCE_API_KEY and BINANCE_API_SECRET in your .env file.
+Traceback (most recent call last):
+  File "C:\Users\ghong\OneDrive\Attachments\Desktop\ASEP\trading_bot\cli.py", line 69, in main
+    client = BinanceFuturesClient()
+  File "C:\Users\ghong\OneDrive\Attachments\Desktop\ASEP\trading_bot\bot\client.py", line 29, in __init__
+    self.client = self._create_client()
+                  ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\ghong\OneDrive\Attachments\Desktop\ASEP\trading_bot\bot\client.py", line 37, in _create_client
+    raise ConfigurationError(
+    ...<2 lines>...
+    )
+bot.client.ConfigurationError: Missing Binance credentials. Set BINANCE_API_KEY and BINANCE_API_SECRET in your .env file.
+2026-05-01 15:11:14 | ERROR | trading_bot | Configuration error: Missing Binance credentials. Set BINANCE_API_KEY and BINANCE_API_SECRET in your .env file.
+Traceback (most recent call last):
+  File "C:\Users\ghong\OneDrive\Attachments\Desktop\ASEP\trading_bot\cli.py", line 69, in main
+    client = BinanceFuturesClient()
+  File "C:\Users\ghong\OneDrive\Attachments\Desktop\ASEP\trading_bot\bot\client.py", line 29, in __init__
+    self.client = self._create_client()
+                  ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\ghong\OneDrive\Attachments\Desktop\ASEP\trading_bot\bot\client.py", line 37, in _create_client
+    raise ConfigurationError(
+    ...<2 lines>...
+    )
+bot.client.ConfigurationError: Missing Binance credentials. Set BINANCE_API_KEY and BINANCE_API_SECRET in your .env file.
+2026-05-01 15:17:18 | ERROR | trading_bot | Configuration error: Missing Binance credentials. Ensure trading_bot/.env contains BINANCE_API_KEY and BINANCE_API_SECRET with non-empty values.
+Traceback (most recent call last):
+  File "C:\Users\ghong\OneDrive\Attachments\Desktop\ASEP\trading_bot\cli.py", line 69, in main
+    client = BinanceFuturesClient()
+  File "C:\Users\ghong\OneDrive\Attachments\Desktop\ASEP\trading_bot\bot\client.py", line 30, in __init__
+    self.client = self._create_client()
+                  ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\ghong\OneDrive\Attachments\Desktop\ASEP\trading_bot\bot\client.py", line 49, in _create_client
+    raise ConfigurationError(
+    ...<2 lines>...
+    )
+bot.client.ConfigurationError: Missing Binance credentials. Ensure trading_bot/.env contains BINANCE_API_KEY and BINANCE_API_SECRET with non-empty values.
+2026-05-01 15:18:37 | ERROR | trading_bot | Configuration error: Missing Binance credentials. Ensure trading_bot/.env contains BINANCE_API_KEY and BINANCE_API_SECRET with non-empty values.
+Traceback (most recent call last):
+  File "C:\Users\ghong\OneDrive\Attachments\Desktop\ASEP\trading_bot\cli.py", line 69, in main
+    client = BinanceFuturesClient()
+  File "C:\Users\ghong\OneDrive\Attachments\Desktop\ASEP\trading_bot\bot\client.py", line 30, in __init__
+    self.client = self._create_client()
+                  ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\ghong\OneDrive\Attachments\Desktop\ASEP\trading_bot\bot\client.py", line 49, in _create_client
+    raise ConfigurationError(
+    ...<2 lines>...
+    )
+bot.client.ConfigurationError: Missing Binance credentials. Ensure trading_bot/.env contains BINANCE_API_KEY and BINANCE_API_SECRET with non-empty values.
+2026-05-01 15:19:12 | ERROR | trading_bot | Configuration error: Missing Binance credentials. Ensure trading_bot/.env contains BINANCE_API_KEY and BINANCE_API_SECRET with non-empty values.
+Traceback (most recent call last):
+  File "C:\Users\ghong\OneDrive\Attachments\Desktop\ASEP\trading_bot\cli.py", line 69, in main
+    client = BinanceFuturesClient()
+  File "C:\Users\ghong\OneDrive\Attachments\Desktop\ASEP\trading_bot\bot\client.py", line 30, in __init__
+    self.client = self._create_client()
+                  ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\ghong\OneDrive\Attachments\Desktop\ASEP\trading_bot\bot\client.py", line 49, in _create_client
+    raise ConfigurationError(
+    ...<2 lines>...
+    )
+bot.client.ConfigurationError: Missing Binance credentials. Ensure trading_bot/.env contains BINANCE_API_KEY and BINANCE_API_SECRET with non-empty values.
+2026-05-01 15:31:05 | ERROR | trading_bot | Configuration error: Missing Binance credentials. Ensure trading_bot/.env contains BINANCE_API_KEY and BINANCE_API_SECRET with non-empty values.
+Traceback (most recent call last):
+  File "C:\Users\ghong\OneDrive\Attachments\Desktop\ASEP\trading_bot\cli.py", line 69, in main
+    client = BinanceFuturesClient()
+  File "C:\Users\ghong\OneDrive\Attachments\Desktop\ASEP\trading_bot\bot\client.py", line 30, in __init__
+    self.client = self._create_client()
+                  ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\ghong\OneDrive\Attachments\Desktop\ASEP\trading_bot\bot\client.py", line 49, in _create_client
+    raise ConfigurationError(
+    ...<2 lines>...
+    )
+bot.client.ConfigurationError: Missing Binance credentials. Ensure trading_bot/.env contains BINANCE_API_KEY and BINANCE_API_SECRET with non-empty values.
+2026-05-01 15:32:38 | INFO | trading_bot | Initialized Binance Futures client for testnet: https://testnet.binancefuture.com
+2026-05-01 15:32:38 | INFO | trading_bot | API Request | futures_create_order | params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
+2026-05-01 15:32:39 | INFO | trading_bot | API Response | futures_create_order | response={'orderId': 13096125582, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJaa42b0633858e4df799f55', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.0010', 'executedQty': '0.0000', 'cumQty': '0.0000', 'cumQuote': '0.000000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1777629759714}
+2026-05-01 15:37:17 | INFO | trading_bot | Initialized Binance Futures client for testnet: https://testnet.binancefuture.com
+2026-05-01 15:37:17 | INFO | trading_bot | API Request | futures_create_order | params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01}
+2026-05-01 15:37:17 | INFO | trading_bot | API Response | futures_create_order | response={'orderId': 13096138224, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJaf4ef671f8bb3182c6e7a0', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.0100', 'executedQty': '0.0000', 'cumQty': '0.0000', 'cumQuote': '0.000000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1777630038294}
+2026-05-01 15:37:17 | INFO | trading_bot | API Request | futures_get_order | params={'symbol': 'BTCUSDT', 'orderId': 13096138224}
+2026-05-01 15:37:17 | ERROR | trading_bot | API Error | futures_get_order failed | error=APIError(code=-2013): Order does not exist.
+Traceback (most recent call last):
+  File "C:\Users\ghong\OneDrive\Attachments\Desktop\ASEP\trading_bot\bot\client.py", line 87, in get_futures_order
+    response = self.client.futures_get_order(**request_params)
+  File "C:\Users\ghong\AppData\Local\Programs\Python\Python314\Lib\site-packages\binance\client.py", line 8081, in futures_get_order
+    return self._request_futures_api("get", "order", True, data=params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ghong\AppData\Local\Programs\Python\Python314\Lib\site-packages\binance\client.py", line 144, in _request_futures_api
+    return self._request(method, uri, signed, force_params, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ghong\AppData\Local\Programs\Python\Python314\Lib\site-packages\binance\client.py", line 107, in _request
+    return self._handle_response(self.response)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\ghong\AppData\Local\Programs\Python\Python314\Lib\site-packages\binance\client.py", line 116, in _handle_response
+    raise BinanceAPIException(response, response.status_code, response.text)
+binance.exceptions.BinanceAPIException: APIError(code=-2013): Order does not exist.
+2026-05-01 15:37:17 | ERROR | trading_bot | Binance API error: APIError(code=-2013): Order does not exist.
+Traceback (most recent call last):
+  File "C:\Users\ghong\OneDrive\Attachments\Desktop\ASEP\trading_bot\cli.py", line 71, in main
+    response = service.place_order(validated)
+  File "C:\Users\ghong\OneDrive\Attachments\Desktop\ASEP\trading_bot\bot\orders.py", line 33, in place_order
+    return self.api_client.get_futures_order(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        symbol=order_input.symbol,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+        order_id=order_id,
+        ^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\ghong\OneDrive\Attachments\Desktop\ASEP\trading_bot\bot\client.py", line 87, in get_futures_order
+    response = self.client.futures_get_order(**request_params)
+  File "C:\Users\ghong\AppData\Local\Programs\Python\Python314\Lib\site-packages\binance\client.py", line 8081, in futures_get_order
+    return self._request_futures_api("get", "order", True, data=params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ghong\AppData\Local\Programs\Python\Python314\Lib\site-packages\binance\client.py", line 144, in _request_futures_api
+    return self._request(method, uri, signed, force_params, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ghong\AppData\Local\Programs\Python\Python314\Lib\site-packages\binance\client.py", line 107, in _request
+    return self._handle_response(self.response)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\ghong\AppData\Local\Programs\Python\Python314\Lib\site-packages\binance\client.py", line 116, in _handle_response
+    raise BinanceAPIException(response, response.status_code, response.text)
+binance.exceptions.BinanceAPIException: APIError(code=-2013): Order does not exist.
+2026-05-01 15:38:25 | INFO | trading_bot | Initialized Binance Futures client for testnet: https://testnet.binancefuture.com
+2026-05-01 15:38:25 | INFO | trading_bot | API Request | futures_create_order | params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01}
+2026-05-01 15:38:26 | INFO | trading_bot | API Response | futures_create_order | response={'orderId': 13096141655, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJ5a1731e8297b4787730278', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.0100', 'executedQty': '0.0000', 'cumQty': '0.0000', 'cumQuote': '0.000000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1777630106918}
+2026-05-01 15:38:26 | INFO | trading_bot | API Request | futures_get_order | params={'symbol': 'BTCUSDT', 'orderId': 13096141655}
+2026-05-01 15:38:26 | ERROR | trading_bot | API Error | futures_get_order failed | error=APIError(code=-2013): Order does not exist.
+Traceback (most recent call last):
+  File "C:\Users\ghong\OneDrive\Attachments\Desktop\ASEP\trading_bot\bot\client.py", line 87, in get_futures_order
+    response = self.client.futures_get_order(**request_params)
+  File "C:\Users\ghong\AppData\Local\Programs\Python\Python314\Lib\site-packages\binance\client.py", line 8081, in futures_get_order
+    return self._request_futures_api("get", "order", True, data=params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ghong\AppData\Local\Programs\Python\Python314\Lib\site-packages\binance\client.py", line 144, in _request_futures_api
+    return self._request(method, uri, signed, force_params, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ghong\AppData\Local\Programs\Python\Python314\Lib\site-packages\binance\client.py", line 107, in _request
+    return self._handle_response(self.response)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\ghong\AppData\Local\Programs\Python\Python314\Lib\site-packages\binance\client.py", line 116, in _handle_response
+    raise BinanceAPIException(response, response.status_code, response.text)
+binance.exceptions.BinanceAPIException: APIError(code=-2013): Order does not exist.
+2026-05-01 15:38:26 | INFO | trading_bot | API Request | futures_get_order | params={'symbol': 'BTCUSDT', 'orderId': 13096141655}
+2026-05-01 15:38:27 | INFO | trading_bot | API Response | futures_get_order | response={'orderId': 13096141655, 'symbol': 'BTCUSDT', 'status': 'FILLED', 'clientOrderId': 'x-Cb7ytekJ5a1731e8297b4787730278', 'price': '0.00', 'avgPrice': '77200.200000', 'origQty': '0.0100', 'executedQty': '0.0100', 'cumQuote': '772.002000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'time': 1777630106918, 'updateTime': 1777630106918}
+2026-05-01 15:39:54 | INFO | trading_bot | Initialized Binance Futures client for testnet: https://testnet.binancefuture.com
+2026-05-01 15:39:54 | INFO | trading_bot | API Request | futures_create_order | params={'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.01, 'price': 80000.0, 'timeInForce': 'GTC'}
+2026-05-01 15:39:55 | INFO | trading_bot | API Response | futures_create_order | response={'orderId': 13096145360, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJb1f3a8cf2f7738054d6785', 'price': '80000.00', 'avgPrice': '0.00', 'origQty': '0.0100', 'executedQty': '0.0000', 'cumQty': '0.0000', 'cumQuote': '0.000000', 'timeInForce': 'GTC', 'type': 'LIMIT', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'LIMIT', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1777630195945}
+2026-05-01 15:39:55 | INFO | trading_bot | API Request | futures_get_order | params={'symbol': 'BTCUSDT', 'orderId': 13096145360}
+2026-05-01 15:39:55 | ERROR | trading_bot | API Error | futures_get_order failed | error=APIError(code=-2013): Order does not exist.
+Traceback (most recent call last):
+  File "C:\Users\ghong\OneDrive\Attachments\Desktop\ASEP\trading_bot\bot\client.py", line 87, in get_futures_order
+    response = self.client.futures_get_order(**request_params)
+  File "C:\Users\ghong\AppData\Local\Programs\Python\Python314\Lib\site-packages\binance\client.py", line 8081, in futures_get_order
+    return self._request_futures_api("get", "order", True, data=params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ghong\AppData\Local\Programs\Python\Python314\Lib\site-packages\binance\client.py", line 144, in _request_futures_api
+    return self._request(method, uri, signed, force_params, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ghong\AppData\Local\Programs\Python\Python314\Lib\site-packages\binance\client.py", line 107, in _request
+    return self._handle_response(self.response)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\ghong\AppData\Local\Programs\Python\Python314\Lib\site-packages\binance\client.py", line 116, in _handle_response
+    raise BinanceAPIException(response, response.status_code, response.text)
+binance.exceptions.BinanceAPIException: APIError(code=-2013): Order does not exist.
+2026-05-01 15:39:55 | INFO | trading_bot | API Request | futures_get_order | params={'symbol': 'BTCUSDT', 'orderId': 13096145360}
+2026-05-01 15:39:56 | INFO | trading_bot | API Response | futures_get_order | response={'orderId': 13096145360, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJb1f3a8cf2f7738054d6785', 'price': '80000.00', 'avgPrice': '0.00', 'origQty': '0.0100', 'executedQty': '0.0000', 'cumQuote': '0.000000', 'timeInForce': 'GTC', 'type': 'LIMIT', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'LIMIT', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'time': 1777630195945, 'updateTime': 1777630195945}
+2026-05-01 15:44:28 | INFO | trading_bot | Initialized Binance Futures client for testnet: https://testnet.binancefuture.com
+2026-05-01 15:44:28 | INFO | trading_bot | API Request | futures_create_order | params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01}
+2026-05-01 15:44:28 | INFO | trading_bot | API Response | futures_create_order | response={'orderId': 13096159226, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJ4179acc2132dbaf7d23d3b', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.0100', 'executedQty': '0.0000', 'cumQty': '0.0000', 'cumQuote': '0.000000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1777630469037}
+2026-05-01 15:44:28 | INFO | trading_bot | API Request | futures_get_order | params={'symbol': 'BTCUSDT', 'orderId': 13096159226}
+2026-05-01 15:44:28 | ERROR | trading_bot | API Error | futures_get_order failed | error=APIError(code=-2013): Order does not exist.
+Traceback (most recent call last):
+  File "C:\Users\ghong\OneDrive\Attachments\Desktop\ASEP\trading_bot\bot\client.py", line 87, in get_futures_order
+    response = self.client.futures_get_order(**request_params)
+  File "C:\Users\ghong\AppData\Local\Programs\Python\Python314\Lib\site-packages\binance\client.py", line 8081, in futures_get_order
+    return self._request_futures_api("get", "order", True, data=params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ghong\AppData\Local\Programs\Python\Python314\Lib\site-packages\binance\client.py", line 144, in _request_futures_api
+    return self._request(method, uri, signed, force_params, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ghong\AppData\Local\Programs\Python\Python314\Lib\site-packages\binance\client.py", line 107, in _request
+    return self._handle_response(self.response)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\ghong\AppData\Local\Programs\Python\Python314\Lib\site-packages\binance\client.py", line 116, in _handle_response
+    raise BinanceAPIException(response, response.status_code, response.text)
+binance.exceptions.BinanceAPIException: APIError(code=-2013): Order does not exist.
+2026-05-01 15:44:28 | INFO | trading_bot | API Request | futures_get_order | params={'symbol': 'BTCUSDT', 'orderId': 13096159226}
+2026-05-01 15:44:29 | INFO | trading_bot | API Response | futures_get_order | response={'orderId': 13096159226, 'symbol': 'BTCUSDT', 'status': 'FILLED', 'clientOrderId': 'x-Cb7ytekJ4179acc2132dbaf7d23d3b', 'price': '0.00', 'avgPrice': '77130.800000', 'origQty': '0.0100', 'executedQty': '0.0100', 'cumQuote': '771.308000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'time': 1777630469037, 'updateTime': 1777630469037}
+2026-05-01 15:44:34 | INFO | trading_bot | Initialized Binance Futures client for testnet: https://testnet.binancefuture.com
+2026-05-01 15:44:34 | INFO | trading_bot | API Request | futures_create_order | params={'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.01, 'price': 80000.0, 'timeInForce': 'GTC'}
+2026-05-01 15:44:34 | INFO | trading_bot | API Response | futures_create_order | response={'orderId': 13096159642, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJfd18e665c9eb47e01ae4c1', 'price': '80000.00', 'avgPrice': '0.00', 'origQty': '0.0100', 'executedQty': '0.0000', 'cumQty': '0.0000', 'cumQuote': '0.000000', 'timeInForce': 'GTC', 'type': 'LIMIT', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'LIMIT', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1777630475204}
+2026-05-01 15:44:34 | INFO | trading_bot | API Request | futures_get_order | params={'symbol': 'BTCUSDT', 'orderId': 13096159642}
+2026-05-01 15:44:34 | INFO | trading_bot | API Response | futures_get_order | response={'orderId': 13096159642, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJfd18e665c9eb47e01ae4c1', 'price': '80000.00', 'avgPrice': '0.00', 'origQty': '0.0100', 'executedQty': '0.0000', 'cumQuote': '0.000000', 'timeInForce': 'GTC', 'type': 'LIMIT', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'LIMIT', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'time': 1777630475204, 'updateTime': 1777630475204}
+2026-05-01 15:46:43 | INFO | trading_bot | Initialized Binance Futures client for testnet: https://testnet.binancefuture.com
+2026-05-01 15:46:43 | INFO | trading_bot | API Request | futures_create_order | params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01}
+2026-05-01 15:46:43 | INFO | trading_bot | API Response | futures_create_order | response={'orderId': 13096165530, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJ42d89830e0a4aa79296a', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.0100', 'executedQty': '0.0000', 'cumQty': '0.0000', 'cumQuote': '0.000000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1777630604212}
+2026-05-01 15:46:43 | INFO | trading_bot | API Request | futures_get_order | params={'symbol': 'BTCUSDT', 'orderId': 13096165530}
+2026-05-01 15:46:43 | ERROR | trading_bot | API Error | futures_get_order failed | error=APIError(code=-2013): Order does not exist.
+Traceback (most recent call last):
+  File "C:\Users\ghong\OneDrive\Attachments\Desktop\ASEP\trading_bot\bot\client.py", line 85, in get_futures_order
+    response = self.client.futures_get_order(**request_params)
+  File "C:\Users\ghong\AppData\Local\Programs\Python\Python314\Lib\site-packages\binance\client.py", line 8081, in futures_get_order
+    return self._request_futures_api("get", "order", True, data=params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ghong\AppData\Local\Programs\Python\Python314\Lib\site-packages\binance\client.py", line 144, in _request_futures_api
+    return self._request(method, uri, signed, force_params, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ghong\AppData\Local\Programs\Python\Python314\Lib\site-packages\binance\client.py", line 107, in _request
+    return self._handle_response(self.response)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\ghong\AppData\Local\Programs\Python\Python314\Lib\site-packages\binance\client.py", line 116, in _handle_response
+    raise BinanceAPIException(response, response.status_code, response.text)
+binance.exceptions.BinanceAPIException: APIError(code=-2013): Order does not exist.
+2026-05-01 15:46:44 | INFO | trading_bot | API Request | futures_get_order | params={'symbol': 'BTCUSDT', 'orderId': 13096165530}
+2026-05-01 15:46:44 | INFO | trading_bot | API Response | futures_get_order | response={'orderId': 13096165530, 'symbol': 'BTCUSDT', 'status': 'FILLED', 'clientOrderId': 'x-Cb7ytekJ42d89830e0a4aa79296a', 'price': '0.00', 'avgPrice': '77144.500000', 'origQty': '0.0100', 'executedQty': '0.0100', 'cumQuote': '771.445000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'time': 1777630604212, 'updateTime': 1777630604212}
+2026-05-01 15:47:36 | INFO | trading_bot | Initialized Binance Futures client for testnet: https://testnet.binancefuture.com
+2026-05-01 15:47:36 | INFO | trading_bot | API Request | futures_create_order | params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01}
+2026-05-01 15:47:36 | INFO | trading_bot | API Response | futures_create_order | response={'orderId': 13096168580, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJ99cb0db8520bd7fdc36b6c', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.0100', 'executedQty': '0.0000', 'cumQty': '0.0000', 'cumQuote': '0.000000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1777630657321}
+2026-05-01 15:47:36 | INFO | trading_bot | API Request | futures_get_order | params={'symbol': 'BTCUSDT', 'orderId': 13096168580}
+2026-05-01 15:47:36 | ERROR | trading_bot | API Error | futures_get_order failed | error=APIError(code=-2013): Order does not exist.
+Traceback (most recent call last):
+  File "C:\Users\ghong\OneDrive\Attachments\Desktop\ASEP\trading_bot\bot\client.py", line 85, in get_futures_order
+    response = self.client.futures_get_order(**request_params)
+  File "C:\Users\ghong\AppData\Local\Programs\Python\Python314\Lib\site-packages\binance\client.py", line 8081, in futures_get_order
+    return self._request_futures_api("get", "order", True, data=params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ghong\AppData\Local\Programs\Python\Python314\Lib\site-packages\binance\client.py", line 144, in _request_futures_api
+    return self._request(method, uri, signed, force_params, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ghong\AppData\Local\Programs\Python\Python314\Lib\site-packages\binance\client.py", line 107, in _request
+    return self._handle_response(self.response)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\ghong\AppData\Local\Programs\Python\Python314\Lib\site-packages\binance\client.py", line 116, in _handle_response
+    raise BinanceAPIException(response, response.status_code, response.text)
+binance.exceptions.BinanceAPIException: APIError(code=-2013): Order does not exist.
+2026-05-01 15:47:37 | INFO | trading_bot | API Request | futures_get_order | params={'symbol': 'BTCUSDT', 'orderId': 13096168580}
+2026-05-01 15:47:37 | INFO | trading_bot | API Response | futures_get_order | response={'orderId': 13096168580, 'symbol': 'BTCUSDT', 'status': 'FILLED', 'clientOrderId': 'x-Cb7ytekJ99cb0db8520bd7fdc36b6c', 'price': '0.00', 'avgPrice': '77200.000000', 'origQty': '0.0100', 'executedQty': '0.0100', 'cumQuote': '772.000000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'time': 1777630657321, 'updateTime': 1777630657321}
+2026-05-01 15:47:44 | INFO | trading_bot | Initialized Binance Futures client for testnet: https://testnet.binancefuture.com
+2026-05-01 15:47:44 | INFO | trading_bot | API Request | futures_create_order | params={'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.01, 'price': 80000.0, 'timeInForce': 'GTC'}
+2026-05-01 15:47:44 | INFO | trading_bot | API Response | futures_create_order | response={'orderId': 13096168947, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJ9e3ec5e2e03c522a351e60', 'price': '80000.00', 'avgPrice': '0.00', 'origQty': '0.0100', 'executedQty': '0.0000', 'cumQty': '0.0000', 'cumQuote': '0.000000', 'timeInForce': 'GTC', 'type': 'LIMIT', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'LIMIT', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1777630665274}
+2026-05-01 15:47:44 | INFO | trading_bot | API Request | futures_get_order | params={'symbol': 'BTCUSDT', 'orderId': 13096168947}
+2026-05-01 15:47:44 | INFO | trading_bot | API Response | futures_get_order | response={'orderId': 13096168947, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJ9e3ec5e2e03c522a351e60', 'price': '80000.00', 'avgPrice': '0.00', 'origQty': '0.0100', 'executedQty': '0.0000', 'cumQuote': '0.000000', 'timeInForce': 'GTC', 'type': 'LIMIT', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'LIMIT', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'time': 1777630665274, 'updateTime': 1777630665274}
